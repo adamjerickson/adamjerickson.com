@@ -187,6 +187,10 @@ dd {
   text-align: right;
 }
 
+.light {
+  color: #999999;
+}
+
 /* line 100, ../../src/sass/_globals.scss */
 .click2blnk {
   cursor: pointer;
