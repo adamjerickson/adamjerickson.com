@@ -1,0 +1,97 @@
+<html ng-app="dmsi.patternLibrary.vc">
+<head>
+</head>
+<body>
+
+  <div class="grid-frame vertical">
+
+    <div class="menu-group primary">
+      <div class="menu-group-left">
+        <ul class="menu-bar primary">
+          <!-- <span class="header__logo">
+          </span> -->
+          <a href="/patterns"><img src="../media/logo-white.png" /></a>
+        </ul>
+      </div>
+      <div class="menu-group-right">
+        <ul class="menu-bar primary">
+          <li><a href="##ether">Ether</a></li>
+          <li><a href="##atoms">Atoms</a></li>
+          <li><a href="##molecules">Molecules</a></li>
+          <li><a href="##organisms">Organisms</a></li>
+          <li><a href="##views">Views</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid-block ">
+      <div class="grid-content ">
+
+        <h1>Pattern Library</h1>
+        <p>This page shows all the UI elements that DMSi uses for Visual Cafe.  Use it to:</p>
+        <ul>
+          <li>Find a pattern, and copy the code (click the header name)</li>
+          <li>Try out css changes and see their effect on all other elements</li>
+          <li>Test patterns for responsiveness, and see them in action before using them yourself</li>
+        </ul>
+        <p><strong>PLEASE</strong>, if you make a new pattern, directive, or interesting bit of css, add it here.</p>
+
+        <section class="ether">
+          <h1>Ether</h1>
+          <p>Ether is the fluid in which all other things live.  It isn't a <em>thing</em> you can see so much as a bunch of ideas.  The colors, fonts, and grid system are some parts of the Ether</p>
+          <div ng-include="'ether/foundation.html'"></div>
+          <!-- <div ng-include="'patternLibrary/ether/colors.html'"></div>
+          <div ng-include="'patternLibrary/ether/fonts.html'"></div>
+          <div ng-include="'patternLibrary/ether/grid.html'"></div> -->
+        </section>
+
+        <section class="atoms">
+          <h1>Atoms</h1>
+          <!--<div ng-include="'atoms/logo.html'"></div>-->
+          <div ng-include="'atoms/buttons.html'"></div>
+          <div ng-include="'atoms/text.html'"></div>
+          <div ng-include="'atoms/lists.html'"></div>
+          <div ng-include="'atoms/forms.html'"></div>
+          <!--<div ng-include="'patternLibrary/atoms/icons.html'"></div>
+          <div ng-include="'patternLibrary/atoms/separators.html'"></div> -->
+
+        </section>
+
+        <a name="molecules"></a>
+        <section class="molecules">
+          <h1>Molecules</h1>
+          <div ng-include="'molecules/menuBar.html'"></div>
+        </section>
+
+        <section class="organisms">
+          <h1>Organisms</h1>
+          <p>None yet</p>
+        </section>
+
+        <section class="views">
+          <h1>Views</h1>
+          <p>None yet</p>
+        </section>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- "Below the Fold" Styles -->
+  <link rel="stylesheet" href="meta/prism.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="meta/patterns.css" />
+
+
+  <!-- Main DMSI App Script -->
+  <script src="../js/lib.js"></script>
+  <script src="../js/dmsi.vc.js"></script>
+
+  <!-- Pattern Scripts -->
+  <script src="../js/dmsi.patterns.js"></script>
+
+</body>
+</html>

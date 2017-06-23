@@ -1,0 +1,23 @@
+{
+  "category": "Jamb",
+  "items": [
+    {
+      "itemNum": "jm-009921",
+      "name": "4 in jamb",
+      "description": "",
+      "price": 0
+    },
+    {
+      "itemNum": "jm-008833",
+      "name": "6 in jamb",
+      "description": "",
+      "price": 10
+    },
+    {
+      "itemNum": "jm-007782",
+      "name": "12 in jamb",
+      "description": "",
+      "price": 20
+    }
+  ]
+}

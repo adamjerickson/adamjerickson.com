@@ -1,0 +1,9 @@
+<div class="viewerContainer">
+  <h1>{{viewers.viewer}}</h1>
+
+  <div ng-include="'partials/inventory-callouts.html'"></div>
+
+  <div ng-include="'partials/grid-options.html'"></div>
+  <div ui-grid="viewer.gridOptions" ui-grid-selection ui-grid-pinning ui-grid-autoresize ui-grid-resize-columns class="viewer" id="grid1"></div>
+
+</div>

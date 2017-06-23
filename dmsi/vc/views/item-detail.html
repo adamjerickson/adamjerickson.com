@@ -1,0 +1,32 @@
+<div class="itemDetailContainer">
+  <div class="itemNotFound" ng-hide="idc.item">
+    I'm sorry, we couldn't find that item.
+  </div>
+
+  <div class="itemDetail" ng-show="idc.item">
+    <div class="itemInfo">
+      <div class="itemImageContainer">
+        <img class="itemImage" ng-src="{{idc.item.imgSrc}}">
+      </div>
+      <div class="itemSummary padLeft">
+        <p class="itemNum">{{idc.item.itemNum}}</p>
+
+        <h3 class="itemName">
+          {{idc.item.name}}
+        </h3>
+
+        <p class="itemDescription">{{idc.item.description}}</p>
+
+      </div>
+    </div>
+    <div class="itemPrice">{{idc.item.price | currency}}</div>
+    <div class="itemDetailLineContainer padLeft">
+      <h3>Details</h3>
+      <div class="itemDetailLine" ng-repeat="line in idc.item.details">
+        <label class="itemDetailLineKey">{{line.label}}</label>
+        <span class="itemDetailLineValue">{{line.value}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+

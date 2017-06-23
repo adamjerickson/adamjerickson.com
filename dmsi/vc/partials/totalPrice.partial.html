@@ -1,0 +1,21 @@
+
+
+<div>
+  <div ng-click="goToSelections()">
+    <!-- Expandable section toggler, visible on mobile screens -->
+    <!-- <div class="selectionsExpander">
+      <a class="expander expander-up" >
+        <span class="upArrow"></span>
+      </a>
+    </div> -->
+
+    <div class="totals">
+      <span class="perUnitTotalPrice">
+        {{ sc.prices.totalPriceQuantity }}
+        {{ sc.prices.totalPriceUom}} @
+        {{ sc.prices.totalPricePerUnit | currency }}
+      </span>
+      <span class="totalPrice">{{ sc.prices.totalPrice | currency }}</span>
+    </div>
+  </div>
+</div>

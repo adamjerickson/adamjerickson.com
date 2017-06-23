@@ -1,0 +1,17 @@
+<!-- This only shows up on desktop or wider.  Has a logo and name -->
+<div class="headerContainer">
+  <span class="headerLeft">
+    <a ng-hide="vc.page == 'Items'" ng-click="vc.goBack($event)">&#9664; Back</a>
+  </span>
+
+  <span class="headerCenter">
+    Visual CAFE <!--// $$$$ This should be the URL of the image provided, our our VC logo.-->
+  </span>
+
+  <span class="headerRight">
+  &nbsp;
+  </span>
+</div>
+<div class="headerSub">
+  Configuring: {{vc.configuringItem}}
+</div>

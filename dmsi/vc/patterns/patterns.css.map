@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "patterns.css",
+	"sources": [
+		"../../app/patterns/meta/patterns.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "AAAsB,CAAC,CAAA,AAAA,OAAC,AAAA,GAAU,QAAQ,EAAE,OAAO,CAArB;EAC5B,MAAM,EAAE,eAAgB,GADK",
+	"names": []
+}

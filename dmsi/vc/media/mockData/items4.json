@@ -1,0 +1,17 @@
+{
+  "category": "Swing",
+  "items": [
+    {
+      "itemNum": "sw-in",
+      "name": "In Swing",
+      "description": "",
+      "price": 0
+    },
+    {
+      "itemNum": "sw-out",
+      "name": "Out Swing",
+      "description": "",
+      "price": 0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<div class="inventoryCallouts">
+
+  <!-- <div class="callout">
+    <div class="bigNumber inventory">
+      <h2>{{viewer.callouts.uniqueItems.title}}</h2>
+      <h1>{{viewer.callouts.uniqueItems.value | number}}</h1>
+    </div>
+  </div> -->
+
+  <div class="callout">
+    <div class="bigNumber inventory">
+      <h2>{{viewer.callouts.totalItems.title}}</h2>
+      <h1>{{viewer.callouts.totalItems.value | number}}</h1>
+    </div>
+  </div>
+
+  <div justgage class="callout gague commitRatio" value="{{viewer.callouts.commitRatio.value}}" label="{{viewer.callouts.commitRatio.label}}" title="{{viewer.callouts.commitRatio.title}}" min="{{viewer.callouts.commitRatio.min}}" max="{{viewer.callouts.commitRatio.max}}" symbol="%" value-font-color="#565759" level-colors='["#ff0000", "#f9c802", "#a9d70b"]'></div>
+
+
+  <div class="callout">
+    <h2>{{viewer.callouts.topThree.title}}</h2>
+    <table>      
+      <tr class="callout__item" ng-repeat="item in viewer.callouts.topThree.value">
+        <td>
+          <b>{{item.description}}</b>
+          <em>{{item.item}}</em>
+        </td>
+        <td>
+          <b class="count">{{item.availqty | number:0}}</b>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  
+
+</div>

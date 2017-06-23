@@ -1,0 +1,17 @@
+{
+  "category": "Handedness",
+  "items": [
+    {
+      "itemNum": "hd-lft",
+      "name": "Right Handed",
+      "description": "",
+      "price": 0
+    },
+    {
+      "itemNum": "hd-rgt",
+      "name": "Left Handed",
+      "description": "",
+      "price": 0
+    }
+  ]
+}

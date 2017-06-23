@@ -1,0 +1,141 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+*/
+/* line 5, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../../../src/sass/sass/_globals.scss */
+body {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+/* line 6, ../../../src/sass/sass/_globals.scss */
+.container.main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 11, ../../../src/sass/sass/_globals.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 15, ../../../src/sass/sass/_globals.scss */
+section {
+  margin: 1rem;
+}
+
+/* line 1, ../../../src/sass/sass/_header.scss */
+header {
+  border-bottom: 1px solid #FF6D1F;
+}
+
+/* line 5, ../../../src/sass/sass/_header.scss */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  padding: 1rem;
+  border-bottom: 1px solid #FF6D1F;
+}
+/* line 14, ../../../src/sass/sass/_header.scss */
+nav h1, nav svg {
+  display: inline-block;
+  color: #FF6D1F;
+}
+/* line 20, ../../../src/sass/sass/_header.scss */
+nav svg {
+  height: 80%;
+}
+/* line 23, ../../../src/sass/sass/_header.scss */
+nav h1 {
+  margin-top: -15px;
+  margin-left: 2px;
+  padding-left: 1rem;
+  border-left: 0px solid #666666;
+}
+
+/* line 31, ../../../src/sass/sass/_header.scss */
+.vitals {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #FFFFFF;
+  color: #666666;
+}
+/* line 38, ../../../src/sass/sass/_header.scss */
+.vitals li {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}

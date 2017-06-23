@@ -1,0 +1,45 @@
+<div class="selectionsContainer">
+  <div class="selectionsHeader">
+    Selections
+  </div>
+  <div class="selections">
+    <h3 class="noSelections" ng-show="sc.selections.length == 0">You haven't selected any items yet.</h3>
+
+
+    <ul ng-show="sc.selections.length > 0">
+      <li class="item selectedItem" ng-repeat="selection in sc.selections">
+        <h4>{{selection.category}}</h4>
+        <div class="itemInfo">
+          <div class="col itemImageContainer"  ng-hide="{{selection.item.imageSrc == ''}}">
+            <img class="itemImage" ng-src="{{selection.item.imageSrc | returnEmptyStringIfUndefined}}">
+          </div>
+          <div class="col padLeft">
+            <p class="itemNum">{{selection.item.itemNum}}</p>
+
+            <h3 class="itemName">
+              {{selection.item.name}}
+            </h3>
+
+          </div>
+        </div>
+        <div class="itemPrice">
+          <span class="detail detail__priceDetail">
+            {{selection.item.quantity}} {{selection.item.quantityUom}} @ {{selection.item.displayPricePerUom | currency}}
+          </span>
+
+          {{selection.item.price | currency}}
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Price -->
+  <div class="totalsContainer opened anim-fade" ng-include="'partials/totalPrice.partial.html'"></div>
+
+  <!-- Done button - visble when all selections are complete -->
+  <div ng-include="'partials/addToCart.partial.html'" ng-show="sc.finished"></div>
+</div>
+
+
+
+

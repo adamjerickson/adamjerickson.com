@@ -1,0 +1,40 @@
+<div class="itemsContainer col leftCol">
+  <div class="loader" ng-show="vc.loading">
+  </div>
+
+  <div class="itemsHeader">
+    <h4>Choose a</h4>
+    <h2>{{items.category}}</h2>
+    <input class="itemsFilter " ng-model="query" ng-model-options="{debounce: 100}" placeholder="filter items" />
+  </div>
+
+  <ul class="items">
+    <li class="item" ng-repeat="item in items | filter: filterItems" ng-click="selectItem($event, this);" ng-class="{selected: item.selected}">
+      <div class="itemInfo">
+        <div class="col itemImageContainer" ng-hide="{{item.imageSrc == ''}}">
+          <img class="itemImage" ng-src="{{item.imageSrc}}">
+        </div>
+        <div class="col padLeft medium">
+          <p class="itemNum">{{item.itemNum}}</p>
+
+          <h3 class="itemName">
+            {{item.name}}
+          </h3>
+
+        </div>
+      </div>
+      <div class="itemPrice">
+        <span class="detail detail__priceDetail">{{item.quantity}} {{item.quantityUom}} @ {{item.displayPricePerUom | currency}}</span>
+
+        {{item.price | currency}}
+      </div>
+
+    </li>
+  </ul>
+</div>
+
+<div class="col rightCol hide-small" ng-controller="SelectionsController" ng-include="'views/selections.html'"></div>
+
+
+
+

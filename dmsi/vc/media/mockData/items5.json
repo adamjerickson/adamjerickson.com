@@ -1,0 +1,17 @@
+{
+  "category": "Bore",
+  "items": [
+    {
+      "itemNum": "bo-00001",
+      "name": "Single Bore",
+      "description": "",
+      "price": 0
+    },
+    {
+      "itemNum": "bo-00002",
+      "name": "Double Bore",
+      "description": "",
+      "price": 10
+    }
+  ]
+}

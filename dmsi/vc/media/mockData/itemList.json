@@ -1,0 +1,23 @@
+{
+  "category": "Plank",
+  "items": [
+    {
+      "itemNum": "pl-54321",
+      "name": "Solid Oak Plank 80x32",
+      "description": "This incredibly smooth and solid oak plank will be add warmth and joy to your family home.  Finished with love and pride by elves at the north pole, this tree made flat can stand up to any weather conditions.",
+      "price": 455
+    },
+    {
+      "itemNum": "pl-12345",
+      "name": "Solid Pine Plank 80x32",
+      "description": "Not as nice as the Oak one, but cheaper.",
+      "price": 300
+    },
+    {
+      "itemNum": "pl-88923",
+      "name": "Hollow balsa wood door 80x32",
+      "description": "",
+      "price": 15
+    }
+  ]
+}

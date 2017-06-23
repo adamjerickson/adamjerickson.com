@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="dmsiVc" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="dmsiVc" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="dmsiVc" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="dmsiVc" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Visual CAFE</title>
+  <meta name="description" content="a">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Essential javascript that must go in the head -->
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>-->
+
+
+  <!-- Essential "above the fold" CSS that must be inlined. -->
+  <style>
+
+  </style>
+
+</head>
+<body ng-controller="MainController">
+
+  <!--[if lt IE 9]>
+      <p class="browsehappy">This application requires a newer browser than you are using.  Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- header -->
+	<header ui-view="header"></header>
+
+  <!-- Our main viewport.  All views will be rendered inside this element. -->
+  <main ui-view="content" class="mainContainer"></main>
+
+  <footer ui-view="footer"></footer>
+
+
+  <!-- "Below the Fold" Styles -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Scripts -->
+  <script src="js/lib.js"></script>
+  <script src="js/dmsi.vc.js"></script>
+
+</body>
+</html>

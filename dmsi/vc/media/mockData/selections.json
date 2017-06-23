@@ -1,0 +1,37 @@
+{
+    "selections": [
+      {
+        "category": "Plank",
+        "items": [
+          {
+            "itemNum": "pl-54321",
+            "name": "Solid Oak Plank 80x32",
+            "description": "This incredibly smooth and solid oak plank will be add warmth and joy to your family home.  Finished with love and pride by elves at the north pole, this tree made flat can stand up to any weather conditions.",
+            "price": 455
+          }
+        ]
+      },
+      {
+        "category": "Left Sidelight",
+        "items": [
+          {
+            "itemNum": "lsl-12345",
+            "name": "Left Sidelight - Double Pane",
+            "description": "This sidelight will add beauty and grace to your home for years to come.",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "category": "Right Sidelight",
+        "items": [
+          {
+            "itemNum": "rsl-12345",
+            "name": "Right Sidelight - Double Pane",
+            "description": "This sidelight will add beauty and grace to your home for years to come.",
+            "price": 120
+          }
+        ]
+      }
+    ]
+  }

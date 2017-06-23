@@ -1,0 +1,17 @@
+<!-- This only shows up on desktop or wider.  Has a logo and name -->
+<div class="headerContainer">
+  <span class="headerLeft" ng-mouseenter="viewers.showUserAgent = true" ng-mouseleave="viewers.showUserAgent = false">
+  	<div class="userAgent" ng-show="viewers.showUserAgent" >{{viewers.userAgent}}</div>
+  </span>
+
+  <span class="headerCenter">
+    Viewers POC <!--// $$$$ This should be the URL of the image provided, our our VC logo.-->
+  </span>
+
+  <span class="headerRight">
+  &nbsp;
+  </span>
+</div>
+<div class="headerSub">
+  <a ui-sref="viewers.inventory">Inventory</a> | <a ui-sref="viewers.transactions">Transactions</a> | <a ui-sref="viewers.cmViewerForBrent">CM</a> | <a ui-sref="viewers.salesOrders">Sales Orders</a> | <a ui-sref="viewers.cgGroupOrdersMonth">CG Group Orders - Month</a>
+</div>

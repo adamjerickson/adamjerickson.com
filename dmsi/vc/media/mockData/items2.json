@@ -1,0 +1,17 @@
+{
+  "category": "Right Sidelight",
+  "items": [
+    {
+      "itemNum": "rs-00112",
+      "name": "Double-pane 80x12",
+      "description": "This is an incredible value",
+      "price": 120
+    },
+    {
+      "itemNum": "rs-00114",
+      "name": "Oak Single Pane Full Height 80x12",
+      "description": "This glass isn't half full.  It's full full.",
+      "price": 100
+    }
+  ]
+}

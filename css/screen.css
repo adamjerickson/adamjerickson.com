@@ -1,0 +1,495 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+*/
+/* line 5, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Users/adam/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../../src/sass/_globals.scss */
+html {
+  font-size: 32px;
+}
+
+/* line 6, ../../src/sass/_globals.scss */
+body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-size: 25px;
+  font-size: 1rem;
+}
+@media only screen and (min-width: 992px) {
+  /* line 6, ../../src/sass/_globals.scss */
+  body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-size: 24px;
+  }
+}
+
+/* line 15, ../../src/sass/_globals.scss */
+body {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+/* line 21, ../../src/sass/_globals.scss */
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 27, ../../src/sass/_globals.scss */
+section {
+  margin: 0;
+  padding: 1rem;
+}
+
+/* line 34, ../../src/sass/_globals.scss */
+h1 {
+  font-size: 59.25px;
+  font-size: 2.37rem;
+  border-bottom: 1px solid #FA5B0F;
+  letter-spacing: -0.15rem;
+  margin-bottom: 1rem;
+}
+
+/* line 41, ../../src/sass/_globals.scss */
+h2 {
+  font-size: 40.75px;
+  font-size: 1.63rem;
+  color: #000000;
+  font-weight: 100;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+/* line 48, ../../src/sass/_globals.scss */
+h3 {
+  font-size: 25px;
+  font-size: 1rem;
+  color: #FA5B0F;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+/* line 54, ../../src/sass/_globals.scss */
+h4 {
+  font-size: 18.75px;
+  font-size: 0.75rem;
+  color: #666666;
+  text-transform: uppercase;
+}
+/* line 58, ../../src/sass/_globals.scss */
+h4:first-of-type {
+  margin-top: 0.5em;
+}
+
+/* line 64, ../../src/sass/_globals.scss */
+p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* line 70, ../../src/sass/_globals.scss */
+time {
+  font-size: 18.75px;
+  font-size: 0.75rem;
+}
+
+/* line 76, ../../src/sass/_globals.scss */
+dt {
+  font-size: 25px;
+  font-size: 1rem;
+  color: #FA5B0F;
+  text-transform: uppercase;
+}
+/* line 81, ../../src/sass/_globals.scss */
+dt:not(:first-child) {
+  margin-top: 0.9rem;
+}
+
+/* line 85, ../../src/sass/_globals.scss */
+dd {
+  font-size: 18.75px;
+  font-size: 0.75rem;
+  color: #666666;
+  padding-bottom: 0.3rem;
+}
+
+/* line 92, ../../src/sass/_globals.scss */
+.lt {
+  color: #cccccc;
+}
+
+/* line 96, ../../src/sass/_globals.scss */
+.right {
+  text-align: right;
+}
+
+/* line 100, ../../src/sass/_globals.scss */
+.click2blnk {
+  cursor: pointer;
+}
+
+/* line 1, ../../src/sass/_header.scss */
+header {
+  border-bottom: 1px solid #FF6D1F;
+}
+
+/* line 5, ../../src/sass/_header.scss */
+nav {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  height: 80px;
+  padding: 1rem;
+}
+/* line 20, ../../src/sass/_header.scss */
+nav h1, nav svg {
+  color: #FA5B0F;
+}
+/* line 24, ../../src/sass/_header.scss */
+nav svg {
+  height: 80%;
+}
+/* line 28, ../../src/sass/_header.scss */
+nav .headline {
+  margin-left: 1rem;
+  margin-right: auto;
+}
+/* line 33, ../../src/sass/_header.scss */
+nav .headline h1 {
+  margin-bottom: 10px;
+  border-bottom: 0;
+  text-align: left;
+  font-size: 50px;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  /* line 33, ../../src/sass/_header.scss */
+  nav .headline h1 {
+    font-size: 37.5px;
+    font-size: 1.5rem;
+    letter-spacing: -0.07rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  /* line 33, ../../src/sass/_header.scss */
+  nav .headline h1 {
+    font-size: 32.5px;
+    font-size: 1.3rem;
+    letter-spacing: -0.07rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /* line 33, ../../src/sass/_header.scss */
+  nav .headline h1 {
+    font-size: 25px;
+    font-size: 1rem;
+    letter-spacing: -0.06rem;
+  }
+}
+/* line 56, ../../src/sass/_header.scss */
+nav .headline p {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: left;
+}
+@media only screen and (max-width: 992px) {
+  /* line 56, ../../src/sass/_header.scss */
+  nav .headline p {
+    font-size: 20px;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 56, ../../src/sass/_header.scss */
+  nav .headline p {
+    font-size: 15px;
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /* line 56, ../../src/sass/_header.scss */
+  nav .headline p {
+    font-size: 10px;
+    font-size: 0.4rem;
+  }
+}
+
+/* line 3, ../../src/sass/_main.scss */
+main section {
+  background-color: #FFFFFF;
+}
+/* line 5, ../../src/sass/_main.scss */
+main section.gray {
+  background-color: #666666;
+  color: #FFFFFF;
+}
+/* line 9, ../../src/sass/_main.scss */
+main section.white {
+  background-color: #FFFFFF;
+  color: #666666;
+}
+/* line 13, ../../src/sass/_main.scss */
+main section.darkOrange {
+  background-color: #FA5B0F;
+  color: #FFFFFF;
+}
+/* line 16, ../../src/sass/_main.scss */
+main section.darkOrange h1 {
+  color: #000000;
+  border-bottom-color: #000000;
+}
+/* line 20, ../../src/sass/_main.scss */
+main section.darkOrange h2 {
+  color: #FFFFFF;
+}
+/* line 23, ../../src/sass/_main.scss */
+main section.darkOrange h3 {
+  color: #666666;
+}
+/* line 26, ../../src/sass/_main.scss */
+main section.darkOrange h4 {
+  color: #FFFFFF;
+}
+/* line 30, ../../src/sass/_main.scss */
+main section.lightOrange {
+  background-color: #FF822E;
+  color: #000000;
+}
+/* line 33, ../../src/sass/_main.scss */
+main section.lightOrange h1 {
+  color: #000000;
+  border-bottom-color: #FFFFFF;
+}
+/* line 37, ../../src/sass/_main.scss */
+main section.lightOrange h2 {
+  color: #FFFFFF;
+}
+/* line 40, ../../src/sass/_main.scss */
+main section.lightOrange h3 {
+  color: #FFFFFF;
+}
+/* line 43, ../../src/sass/_main.scss */
+main section.lightOrange h4 {
+  color: #FFFFFF;
+}
+/* line 47, ../../src/sass/_main.scss */
+main section.superLightOrange {
+  background-color: #FFF3F0;
+  color: #666666;
+}
+/* line 50, ../../src/sass/_main.scss */
+main section.superLightOrange h1 {
+  color: #000000;
+  border-bottom-color: #FA5B0F;
+}
+/* line 54, ../../src/sass/_main.scss */
+main section.superLightOrange h2 {
+  color: #000000;
+}
+/* line 57, ../../src/sass/_main.scss */
+main section.superLightOrange h3 {
+  color: #FA5B0F;
+}
+/* line 60, ../../src/sass/_main.scss */
+main section.superLightOrange h4 {
+  color: #666666;
+}
+/* line 64, ../../src/sass/_main.scss */
+main section.superLightOrange .gallery {
+  background-color: transparent;
+}
+/* line 72, ../../src/sass/_main.scss */
+main ul li {
+  list-style: disc;
+  margin-left: 2rem;
+  padding: 0.2rem;
+}
+/* line 80, ../../src/sass/_main.scss */
+main article > ul > li {
+  margin-left: 0;
+  list-style: none;
+}
+/* line 85, ../../src/sass/_main.scss */
+main .signature {
+  margin-top: 0.5rem;
+  width: 50px;
+  height: 50px;
+}
+/* line 91, ../../src/sass/_main.scss */
+main .sub, main .sub > sub {
+  font-size: 0.5rem;
+}
+/* line 95, ../../src/sass/_main.scss */
+main .floatLeft.sub {
+  margin-top: 3rem;
+}
+@media (max-width: 360px) {
+  /* line 95, ../../src/sass/_main.scss */
+  main .floatLeft.sub {
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+  }
+}
+/* line 104, ../../src/sass/_main.scss */
+main .floatLeft {
+  float: left;
+}
+/* line 108, ../../src/sass/_main.scss */
+main .floatRight {
+  float: right;
+}
+/* line 112, ../../src/sass/_main.scss */
+main .clearFloat {
+  float: none;
+}
+/* line 116, ../../src/sass/_main.scss */
+main .blink {
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+/* line 132, ../../src/sass/_main.scss */
+main .gallery {
+  padding: 0.03rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-top: 2px solid #cccccc;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+}
+@media (max-width: 414px) {
+  /* line 132, ../../src/sass/_main.scss */
+  main .gallery {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+}
+/* line 154, ../../src/sass/_main.scss */
+main .gallery figure {
+  width: 100%;
+  height: 100px;
+  border: 2px solid transparent;
+  border-radius: 0px;
+  overflow-y: hidden;
+  position: relative;
+}
+@media (max-width: 414px) {
+  /* line 154, ../../src/sass/_main.scss */
+  main .gallery figure {
+    margin-bottom: 0.5rem;
+  }
+}
+/* line 167, ../../src/sass/_main.scss */
+main .gallery img {
+  position: absolute;
+  width: 100%;
+}
+/* line 178, ../../src/sass/_main.scss */
+main .demo button {
+  cursor: pointer;
+  background-color: #FA5B0F;
+  border: 2px solid #ffbf94;
+  border-radius: 4px;
+  font-size: 20px;
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-left: 0;
+  width: 100%;
+}
+/* line 193, ../../src/sass/_main.scss */
+main .demo sub {
+  font-size: 12.5px;
+  font-size: 0.5rem;
+  color: #666666;
+  display: block;
+}

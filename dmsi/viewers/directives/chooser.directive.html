@@ -1,0 +1,10 @@
+<div class="buttonGroup">
+	<label ng-class="{checked: chosenViewer === 'summary'}">
+		<input type="radio" class="buttonSet" value="summary" ng-focus="applyFocusHighlightingToLabel" ng-blur="removeFocusHighlightingToLabel" ng-model="chosenViewer" ng-change="changeGridData()">
+		<span>Summary</span>
+	</label>
+	<label ng-class="{checked: chosenViewer === 'detail'}">
+		<input type="radio" class="buttonSet" value="detail" ng-focus="applyFocusHighlightingToLabel($event)" ng-blur="removeFocusHighlightingToLabel($event)" ng-model="chosenViewer" ng-change="changeGridData()">
+		<span>Detail</span>
+	</label>
+</div>	

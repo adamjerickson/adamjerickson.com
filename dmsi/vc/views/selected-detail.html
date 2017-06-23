@@ -1,0 +1,33 @@
+<div class="selectionDetailContainer">
+  <div class="itemNotFound" ng-hide="sdc.item">
+    I'm sorry, we couldn't find that item.
+  </div>
+
+  <div class="itemDetail" ng-show="sdc.item">
+    <div class="itemInfo">
+      <div class="itemImageContainer">
+        <img class="itemImage" ng-src="{{sdc.item.imgSrc}}">
+      </div>
+      <div class="itemSummary padLeft">
+        <p class="itemNum">{{sdc.item.itemNum}}</p>
+
+        <h3 class="itemName">
+          {{sdc.item.name}}
+        </h3>
+
+        <p class="itemDescription">{{sdc.item.description}}</p>
+
+      </div>
+    </div>
+    <div class="itemPrice">{{sdc.item.price | currency}}</div>
+    <div class="itemDetailLineContainer padLeft">
+      <h3>Details</h3>
+      <div class="itemDetailLine" ng-repeat="line in sdc.item.details">
+        <label class="itemDetailLineKey">{{line.label}}</label>
+        <span class="itemDetailLineValue">{{line.value}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
